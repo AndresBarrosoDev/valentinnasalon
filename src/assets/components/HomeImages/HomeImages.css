@@ -1,0 +1,36 @@
+.home-images-container {
+  padding-top: 50px;
+}
+
+
+.link-images-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.link-image {
+  position: relative; /* Position relative for absolute positioning of .link-images-text */
+  margin: 0; /* Adjust margin as needed */
+  width: 50%
+}
+
+.link-images-text {
+  font-size: 4.3vw;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1080px) {
+  .link-images-container {
+    flex-wrap: wrap;
+  }
+
+  .link-image {
+
+  }
+}

@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { AboutUs } from "./assets/components/AboutUs/AboutUs";
+import { HomeImages } from "./assets/components/HomeImages/HomeImages";
+import { NavigationBar } from "./assets/components/NavigationBar/NavigationBar";
+import {
+  ChakraBaseProvider,
+  extendBaseTheme,
+  theme as chakraTheme,
+} from "@chakra-ui/react";
+import { Products } from "./assets/components/Products/Products";
+import { Location } from "./assets/components/Location/Location";
+import { Footer } from "./assets/components/Footer/Footer";
+
+const { Button } = chakraTheme.components;
+
+const theme = extendBaseTheme({
+  components: {
+    Button,
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraBaseProvider theme={theme}>
+      <div className="App">
+        <NavigationBar></NavigationBar>
+        <HomeImages></HomeImages>
+        <AboutUs></AboutUs>
+        <Products></Products>
+        <Location></Location>
+        <Footer></Footer>
+      </div>
+    </ChakraBaseProvider>
   );
 }
 

@@ -1,0 +1,50 @@
+
+.main-image {
+  padding-top: 100px;
+  padding: 120px 0 0 0;
+  color: white;
+  text-align: center;
+}
+
+.main-image-title {
+  margin: 0;
+  margin-bottom: 25px;
+  line-height: 0.8;
+  font-size: 4.8vw;
+}
+
+.main-image-subtitle {
+  font-size: 1.5vw;
+}
+
+.main-image-button {
+  font-size: 4.3vw;
+  padding: 15px 30px;
+  background-color: orange;
+  border-radius: 5%;
+}
+
+.main-image-button {
+  margin: 25px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #d3a200;
+}
+
+.main-image-button p {
+  font-size: 3.3vw;
+  padding: 30px;
+  color: #ededed;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .main-image-title {
+    font-size: 5.3vw;
+  }
+
+  .main-image-subtitle {
+    font-size: 2vw;
+  }
+}

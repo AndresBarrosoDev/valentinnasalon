@@ -1,0 +1,85 @@
+.menu-button {
+  padding: 1.3rem 3rem;
+  margin: 0;
+  font-size: 0.81em;
+  text-decoration: none;
+  color: #252525;
+  transition: all 0.5s ease;
+}
+
+.menu-button-with-icon {
+  padding-right: 3rem;
+}
+
+.menu-button:hover {
+  background-color: #ededed;
+}
+
+.menu-button:visited {
+  color: #252525;
+}
+
+.menu-button:visited:hover {
+  background-color: #ededed;
+}
+
+.contacto-button {
+  color: #252525;
+  padding: 19px 25px;
+  margin: 0;
+  font-size: 0.81rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.contacto-button:hover {
+  color: #616161;
+  background-color: #ffffff;
+}
+
+.contacto-button:visited {
+  color: #252525;
+}
+
+.contacto-button:visited:hover {
+  color: #616161;
+}
+
+.reservas-button {
+  padding: 19px 25px;
+  margin: 0;
+  font-size: 0.81rem;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #d3a200;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.reservas-button:hover {
+  color: #252525;
+  background-color: #e6c55c;
+}
+
+.reservas-button:visited {
+  color: #ffffff;
+  background-color: #d3a200;
+}
+
+.reservas-button:visited:hover {
+  color: #252525;
+  background-color: #e6c55c;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .menu-button {
+    padding: 1.3rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 540) {
+  .menu-button {
+    padding: 1.3rem 0.5rem;
+  }
+}
+
