@@ -8,7 +8,8 @@ export const NavigationBar = () => {
     <div className="navigation-bar">
       <div className="main-bar">
         <div className="logo">
-          <h1>Valentinna Salón</h1>
+          <h1>Valentinna</h1>
+          <h2>Salón</h2>
         </div>
         <div className="actions">
           <a href="http://localhost:3000/" className="contacto-button">
@@ -22,18 +23,18 @@ export const NavigationBar = () => {
       <div className="menu">
         <a href="http://localhost:3000/" className="menu-button menu-button-with-icon">
           Peluquería
-          <ChevronDownIcon w={5} h={5} color="white.500" className="down-icon" />
+          <ChevronDownIcon w={5} h={5} color="gray.300" className="down-icon" />
         </a>
         <a href="http://localhost:3000/" className="menu-button menu-button-with-icon">
           Estética
-          <ChevronDownIcon w={5} h={5} color="white.500" className="down-icon" />
+          <ChevronDownIcon w={5} h={5} color="gray.300" className="down-icon" />
         </a>
         <a href="http://localhost:3000/" className="menu-button">
           Novias
         </a>
         <a href="http://localhost:3000/" className="menu-button menu-button-with-icon">
           Salón
-          <ChevronDownIcon w={5} h={5} color="white.500" className="down-icon" />
+          <ChevronDownIcon w={5} h={5} color="gray.300" className="down-icon" />
         </a>
       </div>
     </div>

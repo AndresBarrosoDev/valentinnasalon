@@ -1,15 +1,15 @@
 .menu-button {
-  padding: 1.3rem 3rem;
+  padding: 1.1883rem 1.1rem;
   margin: 0;
-  font-size: 0.81em;
+  font-size: 0.81rem;
   text-decoration: none;
   color: #252525;
   transition: all 0.5s ease;
 }
-
+/* 
 .menu-button-with-icon {
-  padding-right: 3rem;
-}
+  padding: 0rem 5rem;
+} */
 
 .menu-button:hover {
   background-color: #ededed;
@@ -25,7 +25,7 @@
 
 .contacto-button {
   color: #252525;
-  padding: 19px 25px;
+  padding: 1.1875rem 1.5625rem;
   margin: 0;
   font-size: 0.81rem;
   text-decoration: none;
@@ -46,8 +46,7 @@
 }
 
 .reservas-button {
-  padding: 19px 25px;
-  margin: 0;
+  padding: 1.1875rem 1.5625rem;
   font-size: 0.81rem;
   text-decoration: none;
   color: #ffffff;
@@ -73,13 +72,13 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
   .menu-button {
-    padding: 1.3rem 1rem;
+    padding: 1.1883rem 0;
   }
 }
 
-@media only screen and (max-width: 540) {
+@media only screen and (max-width: 540px) {
   .menu-button {
-    padding: 1.3rem 0.5rem;
+    padding: 1.1883rem 0;
   }
 }
 

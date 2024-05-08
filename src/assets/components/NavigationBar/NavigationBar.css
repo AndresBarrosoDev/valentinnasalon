@@ -4,7 +4,6 @@
   left: 0;
   width: 100%;
   z-index: 2;
-
 }
 
 .main-bar {
@@ -15,11 +14,21 @@
 }
 
 .logo h1 {
-  font-size: 1rem;
+  text-transform: none;
+  font-family: 'Great Vibes';
+  font-size: 2rem;
   font-weight: normal;
-  padding: 1.2rem 0.3rem 1.2rem 1.6rem;
+  padding: .5rem 0rem 0rem 1.6rem;
   margin: 0;
-  font-family: "Lato", tahoma, arial;
+}
+
+.logo h2 {
+  font-size: .6rem;
+  position: absolute;
+  top: 2.4rem;
+  left: 3.1rem;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0;
 }
 
 .actions {
@@ -28,28 +37,34 @@
 }
 
 .menu {
-  margin-top: 1.2px;
-  margin-bottom: 1.2px;
+  margin: 0 1.2px;
   font-family: "Lato", tahoma, arial;
   text-transform: uppercase;
   background-color: #ededed;
   display: flex;
   transition: all 0.5s ease;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .down-icon {
   position: fixed;
+  
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768) {
+  .menu { 
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 900px) {
     .menu { 
     background-color: #fefefe00;
     overflow: hidden;
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 47%;
     transform: translateX(-50%);
     text-align: center;
     width: 55%;
