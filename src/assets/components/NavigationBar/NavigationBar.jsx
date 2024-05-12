@@ -30,7 +30,7 @@ export const NavigationBar = () => {
           <ChevronDownIcon w={5} h={5} color="gray.300" className="down-icon" />
         </a>
         <a href="http://localhost:3000/" className="menu-button">
-          Novias
+          Barberia
         </a>
         <a href="http://localhost:3000/" className="menu-button menu-button-with-icon">
           Salón

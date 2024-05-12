@@ -1,39 +1,8 @@
 .first-background-home-image {
-  background-image: url("../../images/first-image.jpg");
-  background-color: #333;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-/* 
-.second-background-home-image {
-  background-image: url("../../images/second-image.jpg");
+  background-image: url("../../images/homevideo.mp4");
   background-color: #333;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.third-background-home-image {
-  background-image: url("../../images/third-image.jpg");
-  background-color: #333;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.fourth-background-home-image {
-  background-image: url("../../images/fourth-image.jpg");
-  background-color: #333;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.fifth-background-home-image {
-  background-image: url("../../images/fifth-image.jpg");
-  background-color: #333;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-} */

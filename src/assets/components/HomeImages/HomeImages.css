@@ -16,7 +16,7 @@
 }
 
 .link-images-text {
-  font-size: 4.3vw;
+  font-size: 2.8vw;
   color: white;
   position: absolute;
   top: 50%;
@@ -25,12 +25,27 @@
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (min-width: 900px) {
+  .home-images-container {
+    padding-top: 20px;
+  }
+
+  .link-image {
+
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
   .link-images-container {
     flex-wrap: wrap;
   }
 
   .link-image {
+    
+  }
 
+  .link-images-text {
+    font-size: 3.5vw;
   }
 }

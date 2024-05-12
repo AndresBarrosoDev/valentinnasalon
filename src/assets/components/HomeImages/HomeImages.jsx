@@ -16,9 +16,7 @@ export const HomeImages = () => {
         <h1 className="main-image-title">Tu salón en San Miguel</h1>
         <h1 className="main-image-title">¡Ven a visitarnos!</h1>
         <h3 className="main-image-subtitle">¡Ponte en las manos de nuestro gran equipo de estilistas!</h3>
-        <Button colorScheme="yellow" size="lg" className="main-image-button">
-          <p>RESERVA ONLINE CON UN -10%</p>
-        </Button>
+        <button class="main-image-button"><p>RESERVA ONLINE CON UN -10%</p></button>
       </div>
       <div>
         <div className="link-images-container">
@@ -40,7 +38,7 @@ export const HomeImages = () => {
             href="https://localhost:3000"
             className="link-image fourth-background-home-image"
           >
-            <div className="link-images-text">Novias</div>
+            <div className="link-images-text">Barberia</div>
             <img src={FourthImage} alt="" />
           </a>
           <a
