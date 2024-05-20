@@ -8,12 +8,12 @@ export const NavigationBar = () => {
     <div className="navigation-bar">
       <div className="main-bar">
         <div className="logo">
-          <h1>Valentinna</h1>
-          <h2>Salón</h2>
+          <h1 className="valentinna">Valentinna</h1>
+          <h1 className="salon">Salón</h1>
         </div>
         <div className="actions">
           <a href="http://localhost:3000/" className="contacto-button">
-            Contacto{" "}
+            Contacto
           </a>
           <a href="http://localhost:3000/" className="reservas-button">
             Reservar

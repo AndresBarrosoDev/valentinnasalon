@@ -7,7 +7,6 @@ import {
   extendBaseTheme,
   theme as chakraTheme,
 } from "@chakra-ui/react";
-import { Products } from "./assets/components/Products/Products";
 import { Location } from "./assets/components/Location/Location";
 import { Footer } from "./assets/components/Footer/Footer";
 
@@ -26,7 +25,6 @@ function App() {
         <NavigationBar></NavigationBar>
         <HomeImages></HomeImages>
         <AboutUs></AboutUs>
-        <Products></Products>
         <Location></Location>
         <Footer></Footer>
       </div>

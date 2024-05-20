@@ -10,7 +10,7 @@
   margin: 0;
   margin-bottom: 25px;
   line-height: 0.8;
-  font-size: 7vw;
+  font-size: 5vw;
   font-family: "Lato", tahoma, arial;
 }
 
@@ -41,7 +41,7 @@
   cursor: pointer;
   display: inline-flex;
   font-family: "Lato", tahoma, arial;
-  font-size: 4vw;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+  font-size: 2.7vw;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
@@ -81,14 +81,14 @@
 
 @media only screen and (min-width: 900px) {
   .main-image-button {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   .main-image-title {
-    font-size: 7.5vw;
+    font-size: 5.2vw;
   }
 
   .main-image-subtitle {
-    font-size: 2.5vw;
+    font-size: 1.8vw;
   }
 }

@@ -25,7 +25,7 @@
 
 .contacto-button {
   color: #252525;
-  padding: 1.1875rem 1.5625rem;
+  padding: 1.1875rem 1.5625rem 1.1875rem 1.1rem;
   margin: 0;
   font-size: 0.81rem;
   text-decoration: none;
@@ -76,9 +76,17 @@
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 400px) {
   .menu-button {
     padding: 1.1883rem 0;
+    font-size: 0.61rem;
+  }
+  
+  .contacto-button {
+    font-size: 0.61rem;
+  }
+
+  .reservas-button {
+    font-size: 0.61rem;
   }
 }
-

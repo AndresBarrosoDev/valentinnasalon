@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.e74ba809.css",
-    "main.js": "./static/js/main.017969db.js",
+    "main.css": "./static/css/main.a686e3e7.css",
+    "main.js": "./static/js/main.4f5a47b8.js",
     "static/js/453.8e22a4e6.chunk.js": "./static/js/453.8e22a4e6.chunk.js",
     "static/media/homevideo.mp4": "./static/media/homevideo.956908c994722a48f67c.mp4",
     "static/media/GreatVibes-Regular.ttf": "./static/media/GreatVibes-Regular.f51f1a4f2cd0c9611249.ttf",
+    "static/media/photo-salon.jpg": "./static/media/photo-salon.45af0fd57c3644be860c.jpg",
     "static/media/Lato-Light.ttf": "./static/media/Lato-Light.c7400fcad9e48ca9043f.ttf",
     "static/media/fifth-image.jpg": "./static/media/fifth-image.8e83d072dc2f292139c9.jpg",
     "static/media/second-image.jpg": "./static/media/second-image.c76180df32f53d96b173.jpg",
     "static/media/fourth-image.jpg": "./static/media/fourth-image.3d13c63aa3a21b2dc88c.jpg",
     "static/media/third-image.jpg": "./static/media/third-image.3fa76ed2f62edae8d025.jpg",
     "index.html": "./index.html",
-    "main.e74ba809.css.map": "./static/css/main.e74ba809.css.map",
-    "main.017969db.js.map": "./static/js/main.017969db.js.map",
+    "main.a686e3e7.css.map": "./static/css/main.a686e3e7.css.map",
+    "main.4f5a47b8.js.map": "./static/js/main.4f5a47b8.js.map",
     "453.8e22a4e6.chunk.js.map": "./static/js/453.8e22a4e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e74ba809.css",
-    "static/js/main.017969db.js"
+    "static/css/main.a686e3e7.css",
+    "static/js/main.4f5a47b8.js"
   ]
 }

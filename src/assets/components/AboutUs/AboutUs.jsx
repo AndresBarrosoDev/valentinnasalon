@@ -1,12 +1,17 @@
-import React from 'react'
+import React from "react";
 import "./AboutUs.css";
 
 export const AboutUs = () => {
   return (
-    <div className='about-us'>
-      <h1 className='about-us-title'>SI BUSCAS ENTRE LOS MEJORES SALONES, ¡VISÍTANOS!</h1>
-      <h2 className="about-us-subtitle">Disfruta de una experiencia única con nuestros expertos peluqueros.
-Visíta nuestro salón y déjate asesorar por grandes profesionales.</h2>
+    <div className="about-us">
+      <h1 className="about-us-title">
+        Si buscas entre las mejores peluquerías de Chile, ¡visítanos!{" "}
+      </h1>
+      <h2 className="about-us-subtitle">
+        Disfruta de una gratificante experiencia en nuestro salón de belleza
+        en San Miguel. Visítanos y déjate asesorar por nuestros especialistas en
+        cortes, peinado y belleza.
+      </h2>
     </div>
-  )
-}
+  );
+};
