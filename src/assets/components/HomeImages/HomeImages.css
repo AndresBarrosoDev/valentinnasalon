@@ -5,24 +5,42 @@
 
 .link-images-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .link-image {
-  position: relative; /* Position relative for absolute positioning of .link-images-text */
-  margin: 0; /* Adjust margin as needed */
+  position: relative; 
+  margin: 0; 
   width: 50%
 }
 
+.link-image:hover {
+  filter: brightness(130%); 
+}
+
 .link-images-text {
-  font-size: 2.8vw;
-  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 2vw;
+  color: white;
   text-transform: uppercase;
+}
+
+.link-images-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  transition: color 0.3s; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.link-image:hover .link-images-text {
+  color: #e6c55c;
 }
 
 @media only screen and (min-width: 900px) {

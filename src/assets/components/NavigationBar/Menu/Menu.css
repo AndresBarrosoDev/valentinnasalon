@@ -1,0 +1,41 @@
+.menu-button {
+  padding: 1.1883rem 1.1rem;
+  margin: 0;
+  font-size: 0.81rem;
+  text-decoration: none;
+  color: #252525;
+  transition: all 0.5s ease;
+}
+
+.menu-button:hover {
+  background-color: #ededed;
+}
+
+.menu-button:visited {
+  color: #252525;
+}
+
+.menu-button:visited:hover {
+  background-color: #ededed;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+}
+
+.dropdown-menu li {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .menu-button {
+    padding: 1.1883rem 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .menu-button {
+    padding: 1.1883rem 0;
+    font-size: 0.61rem;
+  }
+}

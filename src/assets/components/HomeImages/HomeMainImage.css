@@ -19,15 +19,6 @@
   font-family: "Lato", tahoma, arial;
 }
 
-.main-image-button {
-  font-size: 4.3vw;
-  background-color: green;
-  border-radius: 5%;
-  margin: 25px;
-  margin-bottom: 45px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 
 .main-image-button {
   align-items: center;
@@ -46,8 +37,8 @@
   justify-content: center;
   line-height: 1.25;
   margin: 0;
-  margin-top: 1.7rem;
-  margin-bottom: 3.3rem;
+  margin-top: 2rem;
+  margin-bottom: 2.9rem;
   min-height: 3rem;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
@@ -80,15 +71,29 @@
 
 
 @media only screen and (min-width: 900px) {
-  .main-image-button {
-    margin-bottom: 3rem;
+  .main-image-button {  
+    font-size: 2.5vw;
   }
 
   .main-image-title {
-    font-size: 5.2vw;
+    font-size: 4vw;
   }
 
   .main-image-subtitle {
     font-size: 1.8vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main-image-button {
+    font-size: 4.5vw;
+  }
+
+  .main-image-title {
+    font-size: 8vw;
+  }
+
+  .main-image-subtitle {
+    font-size: 3.6vw;
   }
 }

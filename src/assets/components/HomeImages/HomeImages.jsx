@@ -21,28 +21,28 @@ export const HomeImages = () => {
       <div>
         <div className="link-images-container">
           <a
-            href="https://localhost:3000"
+            href="https://valentinnasalon.cl/"
             className="link-image second-background-home-image"
           >
             <div className="link-images-text">Peluquería</div>
             <img src={SecondImage} alt="" />
           </a>
           <a
-            href="https://localhost:3000"
+            href="https://valentinnasalon.cl/"
             className="link-image third-background-home-image"
           >
-            <div className="link-images-text">Estetica</div>
+            <div className="link-images-text">Estética</div>
             <img src={ThirdImage} alt="" />
           </a>
           <a
-            href="https://localhost:3000"
+            href="https://valentinnasalon.cl/"
             className="link-image fourth-background-home-image"
           >
-            <div className="link-images-text">Barberia</div>
+            <div className="link-images-text">Barbería</div>
             <img src={FourthImage} alt="" />
           </a>
           <a
-            href="https://localhost:3000"
+            href="https://valentinnasalon.cl/"
             className="link-image fifth-background-home-image"
           >
             <div className="link-images-text">Salón</div>
