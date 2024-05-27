@@ -11,7 +11,7 @@ import FifthImage from "../../images/fifth-image.jpg";
 
 export const HomeImages = () => {
   return (
-    <div className="home-images-container">
+    <div className="home-images-container animate-homeimages">
       <div className="main-image first-background-home-image">
         <h1 className="main-image-title">Tu salón en San Miguel</h1>
         <h1 className="main-image-title">¡Ven a visitarnos!</h1>
@@ -19,7 +19,7 @@ export const HomeImages = () => {
         <button class="main-image-button"><p>RESERVA ONLINE CON UN -10%</p></button>
       </div>
       <div>
-        <div className="link-images-container">
+        <div className="link-images-container animate">
           <a
             href="https://valentinnasalon.cl/"
             className="link-image second-background-home-image"

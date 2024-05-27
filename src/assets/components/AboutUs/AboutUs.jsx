@@ -3,7 +3,7 @@ import "./AboutUs.css";
 
 export const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div className="about-us animate-aboutus">
       <h1 className="about-us-title">
         Si buscas entre las mejores peluquerías de Chile, ¡visítanos!{" "}
       </h1>

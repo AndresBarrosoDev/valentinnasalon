@@ -6,17 +6,17 @@ import Menu from "./Menu/Menu";
 
 export const NavigationBar = () => {
   return (
-    <div className="navigation-bar">
+    <div className="navigation-bar ">
       <div className="main-bar">
-        <div className="logo">
+        <div className="logo animate-logo">
           <h1 className="valentinna">Valentinna</h1>
           <h1 className="salon">Salón</h1>
         </div>
         <div className="actions">
-          <a href="https://valentinnasalon.cl/" className="contacto-button">
+          <a href="https://valentinnasalon.cl/" className="contacto-button animate-contacto">
             Contacto
           </a>
-          <a href="https://valentinnasalon.cl/" className="reservas-button">
+          <a href="https://valentinnasalon.cl/" className="reservas-button animate-reservar">
             Reservar
           </a>
         </div>

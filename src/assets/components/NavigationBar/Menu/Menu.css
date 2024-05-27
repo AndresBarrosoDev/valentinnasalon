@@ -19,12 +19,25 @@
   background-color: #ededed;
 }
 
+.dropdown-menu {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.menu-button.menu-button-with-icon:hover .dropdown-menu,
+.menu-button.menu-button-with-icon:focus .dropdown-menu {
+  opacity: 1;
+  max-height: 500px; /* Set a high value to ensure all content is visible */
+}
+
 .dropdown-menu ul {
   list-style: none;
 }
 
 .dropdown-menu li {
-  margin: 1rem 0;
+  margin: 2rem 0 0 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {

@@ -22,7 +22,7 @@ const DropdownMenu = ({ title, items }) => {
       {title}
       <ChevronDownIcon w={5} h={5} color="gray.300" className="down-icon" />
       {isOpen && (
-        <div className="dropdown-menu">
+        <div className="dropdown-menu" style={{ maxHeight: isOpen ? '500px' : '0', opacity: isOpen ? '1' : '0' }}>
           <ul>
             {items.map((item, index) => (
               <li key={index}>
@@ -68,7 +68,7 @@ const Menu = () => {
   ];
 
   return (
-    <div className="menu">
+    <div className="menu animate-navigationbar">
       {dropdownMenus.map((menu, index) => (
         <DropdownMenu key={index} title={menu.title} items={menu.items} />
       ))}
