@@ -1,6 +1,38 @@
 .footer {
-    color: white;
-    height: 200px;
-    width: 100%;
-    background-color: #333;
+  color: white;
+  width: 100%;
+  background-color: #333;
+}
+
+.footer-text {
+  text-align: center;
+  font-family: "Roboto Condensed";
+  padding-bottom: 2rem;
+  font-size: 1.9vh;
+}
+
+.moving-text-animation {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  padding: 2rem 0;
+}
+
+.moving-text-animation span {
+  font-family: "New Spirit Regular";
+  font-size: 7vh;
+  display: inline-block;
+  animation: marquee 8s linear infinite;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

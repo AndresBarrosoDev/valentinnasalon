@@ -4,8 +4,23 @@
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lato Light';
   src: url('./assets/fonts/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('./assets/fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoFlex';
+  src: url('./assets/fonts/RobotoFlex-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'New Spirit Regular';
+  src: url('./assets/fonts/New\ Spirit\ Bold.ttf') format('truetype');
 }
 
 body {
@@ -13,86 +28,12 @@ body {
   transition: all 250ms ease-in-out;
 }
 
-.animate-logo {
-  animation-duration: 1s;
+.animate-home-component {
+  animation-duration: 3s;
   animation-name: animate-fade;
-  animation-delay: 0.5s;
+  animation-delay: .5s;
   animation-fill-mode: backwards;
 }
-.animate-contacto {
-  animation-duration: 1s;
-  animation-name: animate-fade;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards;
-}
-.animate-reservar {
-  animation-duration: 1s;
-  animation-name: animate-fade;
-  animation-delay: 2.5s;
-  animation-fill-mode: backwards;
-}
-.animate-navigationbar {
-  animation-duration: 1s;
-  animation-name: animate-fade;
-  animation-delay: 3.5s;
-  animation-fill-mode: backwards;
-}
-.animate-homeimages {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 4.5s;
-  animation-fill-mode: backwards;
-}
-.animate-homeimages-title {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 90s;
-  animation-fill-mode: backwards;
-}
-.animate-homeimages-subtitle {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 90s;
-  animation-fill-mode: backwards;
-}
-.animate-homeimages-button {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 90s;
-  animation-fill-mode: backwards;
-}
-.animate-homeimages-peluqueria {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 90s;
-  animation-fill-mode: backwards;
-}
-.animate-homeimages-estetica {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 90s;
-  animation-fill-mode: backwards;
-}
-.animate-homeimages-salon {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 90s;
-  animation-fill-mode: backwards;
-}
-.animate-homeimages-barberia {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 90s;
-  animation-fill-mode: backwards;
-}
-.animate-aboutus {
-  animation-duration: 5s;
-  animation-name: animate-fade;
-  animation-delay: 5.5s;
-  animation-fill-mode: backwards;
-}
-
-
 
 @keyframes animate-fade {
   0% { opacity: 0; }

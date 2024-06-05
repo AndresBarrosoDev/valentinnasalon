@@ -3,7 +3,7 @@ import "./Location.css";
 
 export const Location = () => {
   return (
-    <div className="location">
+    <div className="location animate-home-component">
       <h1 className="location-title">Encuentra aquí nuestro Salón:</h1>
       <iframe
         className="map"

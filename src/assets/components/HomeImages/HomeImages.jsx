@@ -11,7 +11,7 @@ import FifthImage from "../../images/fifth-image.jpg";
 
 export const HomeImages = () => {
   return (
-    <div className="home-images-container animate-homeimages">
+    <div className="home-images-container animate-home-component">
       <div className="main-image first-background-home-image">
         <h1 className="main-image-title">Tu salón en San Miguel</h1>
         <h1 className="main-image-title">¡Ven a visitarnos!</h1>

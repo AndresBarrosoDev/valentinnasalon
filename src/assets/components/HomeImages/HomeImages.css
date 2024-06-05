@@ -1,5 +1,5 @@
 .home-images-container {
-  padding-top: 50px;
+  padding-top: 3.125rem;
 }
 
 .link-images-container {
@@ -11,11 +11,11 @@
 .link-image {
   position: relative; 
   margin: 0; 
-  width: 50%
+  width: 50%;
 }
 
 .link-image:hover {
-  filter: brightness(130%); 
+  filter: brightness(130%);
 }
 
 .link-images-text {
@@ -23,19 +23,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2vw;
   color: white;
+  transition: color 0.3s;
+  font-size: 3.7vh;
   text-transform: uppercase;
-}
-
-.link-images-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  transition: color 0.3s; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Lato Light";
 }
 
 .link-image:hover .link-images-text {
@@ -44,7 +36,7 @@
 
 @media only screen and (min-width: 900px) {
   .home-images-container {
-    padding-top: 20px;
+    padding-top: 1.3rem;
   }
 
   .link-image {
@@ -53,7 +45,6 @@
 }
 
 @media only screen and (max-width: 900px) {
-
   .link-images-container {
     flex-wrap: wrap;
   }
@@ -63,6 +54,18 @@
   }
 
   .link-images-text {
-    font-size: 3.5vw;
+    font-size: 4vh;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .link-images-text {
+    font-size: 2.8vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .link-images-text {
+    font-size: 1.8vh;
   }
 }

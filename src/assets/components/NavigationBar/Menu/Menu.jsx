@@ -68,7 +68,7 @@ const Menu = () => {
   ];
 
   return (
-    <div className="menu animate-navigationbar">
+    <div className="menu">
       {dropdownMenus.map((menu, index) => (
         <DropdownMenu key={index} title={menu.title} items={menu.items} />
       ))}

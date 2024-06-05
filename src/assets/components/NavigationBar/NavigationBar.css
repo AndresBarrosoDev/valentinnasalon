@@ -23,6 +23,7 @@
 }
 
 .logo .salon {
+  font-family: "Lato Light";
   font-size: 0.6rem;
   position: absolute;
   top: 2.1rem;
@@ -33,12 +34,12 @@
 }
 
 .actions {
-  font-family: "Lato", tahoma, arial;
+  font-family: "Lato Light";
   display: flex;
 }
 
 .menu {
-  font-family: "Lato", tahoma, arial;
+  font-family: "Lato Light";
   text-transform: uppercase;
   background-color: #ededed;
   display: flex;

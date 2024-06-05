@@ -1,4 +1,3 @@
-
 .main-image {
   padding-top: 100px;
   padding: 120px 0 0 0;
@@ -10,29 +9,28 @@
   margin: 0;
   margin-bottom: 25px;
   line-height: 0.8;
-  font-size: 5vw;
-  font-family: "Lato", tahoma, arial;
+  font-size: 5vh;
+  font-family: "New Spirit Regular";
 }
 
 .main-image-subtitle {
-  font-size: 2.4vw;
-  font-family: "Lato", tahoma, arial;
+  font-size: 2.3vh;
+  font-family: "Roboto Condensed";
 }
-
 
 .main-image-button {
   align-items: center;
   background-clip: padding-box;
   background-color: #d3a200;
   border: 1px solid transparent;
-  border-radius: .9rem;
+  border-radius: 0.9rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: "Lato", tahoma, arial;
-  font-size: 2.7vw;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+  font-family: "Roboto Condensed";
+  font-size: 3vh;
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
@@ -40,7 +38,7 @@
   margin-top: 2rem;
   margin-bottom: 2.9rem;
   min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
   text-decoration: none;
   transition: all 250ms;
@@ -53,6 +51,7 @@
 
 .main-image-button:hover,
 .main-image-button:focus {
+  scale: 1.1;
   background-color: #e6c55c;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   color: black;
@@ -65,35 +64,30 @@
 
 .main-image-button:active {
   background-color: #c85000;
-  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   transform: translateY(0);
 }
 
-
 @media only screen and (min-width: 900px) {
-  .main-image-button {  
-    font-size: 2.5vw;
-  }
-
   .main-image-title {
-    font-size: 4vw;
+    font-size: 7vh;
   }
-
   .main-image-subtitle {
-    font-size: 1.8vw;
+    font-size: 3.2vh;
+  }
+  .main-image-button {
+    font-size: 4.3vh;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .main-image-button {
-    font-size: 4.5vw;
-  }
-
   .main-image-title {
-    font-size: 8vw;
+    font-size: 3.5vh;
   }
-
   .main-image-subtitle {
-    font-size: 3.6vw;
+    font-size: 1.6vh;
+  }
+  .main-image-button {
+    font-size: 2.2vh;
   }
 }
