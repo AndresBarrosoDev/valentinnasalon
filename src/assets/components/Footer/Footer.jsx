@@ -62,7 +62,7 @@ export const Footer = () => {
         <span>Nos vemos pronto</span>
       </div>
       <h2 className="footer-text">
-        San Miguel, Av. Almirante Lynch 1167 (Santiago de Chile) - Telf. +56953677486
+        Av. Almirante Lynch 1167, San Miguel (Santiago de Chile) - Telf. +56953677486
       </h2>
       <h2 className="footer-text">© 2024, Valentinna Salón</h2>
     </div>

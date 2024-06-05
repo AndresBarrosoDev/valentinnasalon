@@ -34,17 +34,10 @@
   color: #e6c55c;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 800px) {
   .home-images-container {
-    padding-top: 1.3rem;
+    padding-top: 4.7rem;
   }
-
-  .link-image {
-
-  }
-}
-
-@media only screen and (max-width: 900px) {
   .link-images-container {
     flex-wrap: wrap;
   }

@@ -26,21 +26,23 @@ a.svg:after {
   bottom: 0;
   left: 0;
 }
-.whatsapp:hover {
-  scale: 1.2;
+.whatsapp {
   background-color: #18b111;
 }
-.instagram:hover {
+.whatsapp:hover {
   scale: 1.2;
+}
+.instagram {
   background: #d6249f;
   filter: drop-shadow(2px 0px 0px #d6249f) drop-shadow(-2px -2px 0px #fdf497);
 }
-.facebook:hover {
+.instagram:hover {
   scale: 1.2;
-  background-color: #0274b3;
+}
+.tiktok {
+  background-color: #fd3e3e;
+  filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
 }
 .tiktok:hover {
   scale: 1.2;
-  background-color: #fd3e3e;
-  filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
 }

@@ -1,6 +1,5 @@
 .main-image {
-  padding-top: 100px;
-  padding: 120px 0 0 0;
+  padding: 5.8rem 0 0 0;
   color: white;
   text-align: center;
 }
@@ -9,12 +8,12 @@
   margin: 0;
   margin-bottom: 25px;
   line-height: 0.8;
-  font-size: 5vh;
+  font-size: 4.5vh;
   font-family: "New Spirit Regular";
 }
 
 .main-image-subtitle {
-  font-size: 2.3vh;
+  font-size: 2vh;
   font-family: "Roboto Condensed";
 }
 
@@ -30,13 +29,13 @@
   cursor: pointer;
   display: inline-flex;
   font-family: "Roboto Condensed";
-  font-size: 3vh;
+  font-size: 2.6vh;
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
   margin: 0;
   margin-top: 2rem;
-  margin-bottom: 2.9rem;
+  margin-bottom: 2.3rem;
   min-height: 3rem;
   padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
@@ -89,5 +88,29 @@
   }
   .main-image-button {
     font-size: 2.2vh;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .main-image-title {
+    font-size: 2.7vh;
+  }
+  .main-image-subtitle {
+    font-size: 1.6vh;
+  }
+  .main-image-button {
+    font-size: 2vh;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .main-image-title {
+    font-size: 2.2vh;
+  }
+  .main-image-subtitle {
+    font-size: 1.2vh;
+  }
+  .main-image-button {
+    font-size: 1.4vh;
   }
 }

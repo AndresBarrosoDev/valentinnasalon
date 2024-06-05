@@ -1,3 +1,12 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .footer {
   color: white;
   width: 100%;
@@ -26,13 +35,4 @@
   animation: marquee 8s linear infinite;
   position: relative;
   z-index: 1;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100vw);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }
