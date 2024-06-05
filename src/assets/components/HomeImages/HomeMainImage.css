@@ -69,7 +69,7 @@
 
 @media only screen and (min-width: 900px) {
   .main-image-title {
-    font-size: 7vh;
+    font-size: 6vh;
   }
   .main-image-subtitle {
     font-size: 3.2vh;
@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 400px) {
   .main-image-title {
-    font-size: 3.5vh;
+    font-size: 3.2vh;
   }
   .main-image-subtitle {
     font-size: 1.6vh;
@@ -93,7 +93,7 @@
 
 @media only screen and (max-width: 300px) {
   .main-image-title {
-    font-size: 2.7vh;
+    font-size: 2.4vh;
   }
   .main-image-subtitle {
     font-size: 1.6vh;
@@ -105,7 +105,7 @@
 
 @media only screen and (max-width: 250px) {
   .main-image-title {
-    font-size: 2.2vh;
+    font-size: 2vh;
   }
   .main-image-subtitle {
     font-size: 1.2vh;
