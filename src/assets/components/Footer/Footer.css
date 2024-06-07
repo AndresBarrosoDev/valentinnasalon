@@ -13,11 +13,19 @@
   background-color: #333;
 }
 
+.footer-socials-trademark {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-trademark {
+}
+
 .footer-text {
-  text-align: center;
+  text-align: left;
   font-family: "Roboto Condensed";
-  padding-bottom: 2rem;
-  font-size: .8rem;
+  padding: 0 2rem 1.5rem;
+  font-size: 0.8rem;
 }
 
 .moving-text-animation {
@@ -25,7 +33,7 @@
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 .moving-text-animation span {
