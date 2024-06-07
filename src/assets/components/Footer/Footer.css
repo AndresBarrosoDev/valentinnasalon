@@ -17,7 +17,7 @@
   text-align: center;
   font-family: "Roboto Condensed";
   padding-bottom: 2rem;
-  font-size: 1.9vh;
+  font-size: .8rem;
 }
 
 .moving-text-animation {
@@ -30,7 +30,7 @@
 
 .moving-text-animation span {
   font-family: "New Spirit Regular";
-  font-size: 7vh;
+  font-size: 3.5rem;
   display: inline-block;
   animation: marquee 8s linear infinite;
   position: relative;

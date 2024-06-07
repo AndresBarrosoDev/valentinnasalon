@@ -4,16 +4,22 @@
   text-align: center;
 }
 
-.main-image-title {
-  margin: 0;
-  margin-bottom: 25px;
+.main-image h1 {
+  margin: 3.5rem 0 1.5rem 0;
   line-height: 0.8;
-  font-size: 4.5vh;
+  font-size: 1.9rem;
   font-family: "New Spirit Regular";
 }
 
-.main-image-subtitle {
-  font-size: 2vh;
+.main-image h2 {
+  margin: 0 0 1.5rem 0;
+  line-height: 0.8;
+  font-size: 1.9rem;
+  font-family: "New Spirit Regular";
+}
+
+.main-image h3 {
+  font-size: 1rem;
   font-family: "Roboto Condensed";
 }
 
@@ -29,7 +35,7 @@
   cursor: pointer;
   display: inline-flex;
   font-family: "Roboto Condensed";
-  font-size: 2.6vh;
+  font-size: 1.4rem;
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
@@ -68,49 +74,65 @@
 }
 
 @media only screen and (min-width: 900px) {
-  .main-image-title {
-    font-size: 6vh;
+  .main-image h1 {
+    margin: 0 0 1.5rem 0;
+    font-size: 2.6rem;
   }
-  .main-image-subtitle {
-    font-size: 3.2vh;
+
+  .main-image h2 {
+    font-size: 2.6rem;
   }
+
+  .main-image h3 {
+    font-size: 1.35rem;
+  }
+
   .main-image-button {
-    font-size: 4.3vh;
+    font-size: 1.9rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .main-image-title {
-    font-size: 3.2vh;
+  .main-image h1 {
+    font-size: 1.3rem;
   }
-  .main-image-subtitle {
-    font-size: 1.6vh;
+  .main-image h2 {
+    font-size: 1.3rem;
+  }
+  .main-image h3 {
+    font-size: .7rem;
   }
   .main-image-button {
-    font-size: 2.2vh;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 300px) {
-  .main-image-title {
-    font-size: 2.4vh;
+  .main-image h1 {
+    font-size: 1.1rem;
   }
-  .main-image-subtitle {
-    font-size: 1.6vh;
+  .main-image h2 {
+    font-size: 1.1rem;
+  }
+  .main-image h3 {
+    font-size: .7rem;
   }
   .main-image-button {
-    font-size: 2vh;
+    font-size: .8rem;
   }
 }
 
 @media only screen and (max-width: 250px) {
-  .main-image-title {
-    font-size: 2vh;
+  .main-image h1 {
+    font-size: 1rem;
   }
-  .main-image-subtitle {
-    font-size: 1.2vh;
+  .main-image h2 {
+    font-size: 1rem;
+  }
+  .main-image h3 {
+    font-size: .6rem;
   }
   .main-image-button {
-    font-size: 1.4vh;
+    font-size: .7rem;
   }
 }

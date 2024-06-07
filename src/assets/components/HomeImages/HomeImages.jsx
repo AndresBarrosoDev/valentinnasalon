@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "@chakra-ui/react";
 import "./HomeMainImage.css";
 import "./HomeImages.css";
 import "./HomeImagesBackgrounds.css";
@@ -13,10 +12,10 @@ export const HomeImages = () => {
   return (
     <div className="home-images-container animate-home-component">
       <div className="main-image first-background-home-image">
-        <h1 className="main-image-title">Tu salón en San Miguel</h1>
-        <h1 className="main-image-title">¡Ven a visitarnos!</h1>
+        <h1 className="">Tu salón en San Miguel</h1>
+        <h2 className="">¡Ven a visitarnos!</h2>
         <h3 className="main-image-subtitle">¡Ponte en las manos de nuestro gran equipo de estilistas!</h3>
-        <button class="main-image-button"><p>RESERVA ONLINE CON UN -10%</p></button>
+        <button className="main-image-button"><p>RESERVA ONLINE CON UN -10%</p></button>
       </div>
       <div>
         <div className="link-images-container animate">

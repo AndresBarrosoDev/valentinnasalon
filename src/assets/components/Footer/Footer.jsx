@@ -1,5 +1,4 @@
 import React from "react";
-import { Input } from "@chakra-ui/react";
 import "./Footer.css";
 import "./FooterSocials.css";
 import instagram from "../../images/icons/instagram.svg";
@@ -58,7 +57,7 @@ export const Footer = () => {
           ></object>
         </a>
       </div>
-      <div class="moving-text-animation">
+      <div className="moving-text-animation">
         <span>Nos vemos pronto</span>
       </div>
       <h2 className="footer-text">
