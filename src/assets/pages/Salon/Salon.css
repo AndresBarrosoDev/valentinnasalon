@@ -1,0 +1,8 @@
+.salon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'New Spirit Regular';
+  font-size: 10rem;
+}

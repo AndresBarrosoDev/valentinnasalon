@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDownIcon } from '@chakra-ui/icons';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import "./Menu.css";
 
 const DropdownMenu = ({ title, items }) => {
@@ -22,11 +23,14 @@ const DropdownMenu = ({ title, items }) => {
       {title}
       <ChevronDownIcon w={5} h={5} color="gray.300" className="down-icon" />
       {isOpen && (
-        <div className="dropdown-menu" style={{ maxHeight: isOpen ? '500px' : '0', opacity: isOpen ? '1' : '0' }}>
+        <div
+          className="dropdown-menu"
+          style={{ maxHeight: isOpen ? '500px' : '0', opacity: isOpen ? '1' : '0' }}
+        >
           <ul>
             {items.map((item, index) => (
               <li key={index}>
-                <a href={item.url}>{item.label}</a>
+                <Link to={item.url}>{item.label}</Link>
               </li>
             ))}
           </ul>
@@ -40,29 +44,32 @@ const Menu = () => {
   const dropdownMenus = [
     {
       title: 'Peluquería',
+      url:'/peluqueria',
       items: [
-        { label: 'Corte', url: '#' },
-        { label: 'Color', url: '#' },
-        { label: 'Brushing', url: '#' },
-        { label: 'Mechas', url: '#' },
-        { label: 'Alisados', url: '#' },
-        { label: 'Extensiones', url: '#' },
+        { label: 'Corte', url: '/corte' },
+        { label: 'Color', url: '/color' },
+        { label: 'Brushing', url: '/brushing' },
+        { label: 'Mechas', url: '/mechas' },
+        { label: 'Alisados', url: '/alisados' },
+        { label: 'Extensiones', url: '/extensiones' },
       ],
     },
     {
       title: 'Estética',
+      url:'/estetica',
       items: [
-        { label: 'Faciales', url: '#' },
-        { label: 'Uñas', url: '#' },
-        { label: 'Pestañas', url: '#' },
-        { label: 'Cejas', url: '#' },
+        { label: 'Faciales', url: '/faciales' },
+        { label: 'Uñas', url: '/unas' },
+        { label: 'Pestañas', url: '/pestanas' },
+        { label: 'Cejas', url: '/cejas' },
       ],
     },
     {
       title: 'Salón',
+      url:'/salon',
       items: [
-        { label: 'Nosotros', url: '#' },
-        { label: 'Fotos', url: '#' },
+        { label: 'Nosotros', url: '/nosotros' },
+        { label: 'Fotos', url: '/fotos' },
       ],
     },
   ];
@@ -70,11 +77,13 @@ const Menu = () => {
   return (
     <div className="menu">
       {dropdownMenus.map((menu, index) => (
-        <DropdownMenu key={index} title={menu.title} items={menu.items} />
+        <Link to={menu.url}>
+          <DropdownMenu key={index} title={menu.title} items={menu.items} />
+        </Link>
       ))}
-      <a href="https://valentinnasalon.cl/" className="menu-button">
+      <Link to="/barberia" className="menu-button">
         Barberia
-      </a>
+      </Link>
     </div>
   );
 };
