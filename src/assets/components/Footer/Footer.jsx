@@ -20,10 +20,8 @@ export const Footer = () => {
       <div className="footer-socials-trademark">
         
         <div className="footer-trademark">
-          <h2 className="footer-text">
-            Av. Almirante Lynch 1167, San Miguel (Santiago de Chile) - Telf.
-            +56953677486
-          </h2>
+          <h2 className="footer-text">Nuestra dirección es <b>Av. Almirante Lynch 1167 de la comuna de San Miguel (Santiago de Chile)</b>.</h2>
+          <h2 className="footer-text">Ante cualquier duda, puedes llamarnos al <b>+56953677486.</b></h2>
           <h2 className="footer-text">© 2024, Valentinna Salón</h2>
         </div>
 

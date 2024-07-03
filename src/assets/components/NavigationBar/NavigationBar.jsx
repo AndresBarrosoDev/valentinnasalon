@@ -18,9 +18,9 @@ export const NavigationBar = () => {
           <a href="https://valentinnasalon.cl/" className="contacto-button">
             Contacto
           </a>
-          <a href="https://valentinnasalon.cl/" className="reservas-button">
+          <Link className="reservas-button" to={"/reservas"}>
             Reservar
-          </a>
+          </Link>
         </div>
       </div>
       <Menu></Menu>

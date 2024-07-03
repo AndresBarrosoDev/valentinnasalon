@@ -1,0 +1,19 @@
+.reservas-container {
+    height: 100vh;
+    background-color: black;
+}
+
+.reservas-container h1 {
+    padding-top: 6rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Great Vibes;
+    color: white;
+}
+
+.reservas-container .timeTaker {
+    width: 50vw;
+    height: 30vh;
+    margin: 0 auto;
+    background-color: #d3a200;
+}

@@ -11,6 +11,7 @@ import { Barberia } from "./assets/pages/Barberia/Barberia";
 import { Peluqueria } from "./assets/pages/Peluqueria/Peluqueria";
 import { Estetica } from "./assets/pages/Estetica/Estetica";
 import { Salon } from "./assets/pages/Salon/Salon";
+import { Reservas } from "./assets/pages/Reservas/Reservas";
 
 const { Button } = chakraTheme.components;
 
@@ -32,6 +33,7 @@ function App() {
             <Route path="/estetica" element={<Estetica />} />
             <Route path="/salon" element={<Salon />} />
             <Route path="/barberia" element={<Barberia />} />
+            <Route path="/reservas" element={<Reservas />} />
           </Routes>
         </div>
       </Router>
